@@ -2,15 +2,6 @@
 	padding: 0;
 }
 
-	body
-{
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-  color: Very Dark Cyan: hsl(192, 100%, 9%)
-  justify-content: center;
-  align-items: center;
-  
-}
 
 .sec2
 {
@@ -149,17 +140,13 @@ align-content:
   font-size: 16px;
  font-color:hsl(192, 100%, 9%);
 }
-.footer
-{
-	margin-top: 3%;
-background:hsl(192, 100%, 9%);
-height: 40vh;
-}
+
 .logoalt{
 	filter: saturate(0%) invert(100%) brightness(150%);
-	 padding-left: 8%;
+	 padding-left: 18%;
 	 margin-right: 5%;
-	 margin-top: 3%;	 
+	 margin-top: 12%;	 
+   padding-bottom: 10px;
 }
 
 #icon_img{
@@ -167,28 +154,97 @@ height: 40vh;
 	max-height: 20px;
 }
 .details{
-	display: flex;
-	max-width: 25%;
-	flex-direction: column;
-	padding-top: 2%;
-	padding-left: 3%;
+	display: column;
+	max-width: 100%;
+	flex-direction: row;
+	 margin-left: 15%;
 	flex-wrap: nowrap;
-	margin:none;
+	
+  justify-content: space-around;
+  font-weight: 400;
 	}
-.leftid>p{
-	display: inline-block;
-	color: white;
-	padding:  2%;
-	font-size: 18px;
-	justify-content: center;
-  box-sizing: border-box;
 
+.fcontent{
+  height: 50vh;
+  background-color: hsl(192, 100%, 9%);
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+  display: flex;
+}
+ 
+.fc{
+  flex: 1;
+  
+  
+}
+.d{ display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+.d>img{
+  padding-right: 20px;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+
+  
 
 }
-.footer	{
-	display: flex;
-	flex-direction:row;
-	justify-content: center;
+.info1,.info2{
+  margin-top: 22%;
+  padding:2% 5%;
+  line-height:500%;
 
-
+}
+.social{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cr{
+  padding-top: 10%;
+  padding-left:40%;
+}
+.icons{
+  padding:10% 40%;
+}
+.community
+{ background-color: white;
+  margin:5% 27%;
+  height: 25vh;
+  box-shadow: 0 0 8px 8px #e6e6e6;
+  width:45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 20px;
+  align-items: center;
+transform: translate(0px,75%);
+   }
+.commub{
+   background-color: hsl(322, 100%, 66%);
+  color: white;
+  border: none;
+  padding: 25px 60px;
+  text-align: center;
+  display: inline-block;
+  margin:auto;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  max-width:40%;
+  margin-bottom:3%;
+}
+.community>h1{
+  padding: 5%;
+  color: hsl(192, 100%, 9%);
+ font-size:40px;
+ font-family: "Poppins",sans-serif;
+ font-weight: 600;
+transform: translate(0px,10%);
 }
